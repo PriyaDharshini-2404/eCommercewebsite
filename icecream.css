@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.btn{
+  gap: 20px;
+  font-size: 20px;
+}
+
+.control input{
+  font-size: 20px;
+}
+  
+  body{
+    background-color: #353b48;
+    
+  }
+
+  
+  .grid-item img:hover{
+  transform: scale(1.5);
+  transition: 0.5s;
+  
+  }
+
+.btn-group button{
+  margin-top: 40px;  
+  margin-left: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #00b894;
+  color:white;
+  border: 3px solid #00b894;
+  cursor: pointer;
+  transition: 3px;
+}
+
+
+
+.container{
+  display: grid;
+  padding-top: 50px;
+  max-width: 500px;
+  grid-template-columns: repeat(6,2fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  align-content: space-around;
+  align-content: space-evenly;
+  border-radius: 3px;
+  
+}
+
+.btn-group button:hover,
+.btn-group .btn-clicked
+{
+  background-color: #353b48;
+}
+
+#search{
+  margin-left: 70rem;
+  padding-right:80px;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 2px solid #00b894;
+  padding: 0 10px;
+  }
+
